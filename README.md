@@ -20,7 +20,8 @@ Ask.RequestAdded:Connect(function(Key: number)
 end)
 
 Ask.RequestResolved:Connect(function(Key: number)
-	if Key and Ask.Requests[Key] then
-	end
+  if Key and Ask.Requests[Key] then
+      print("do stuff")
+  end
 end)
 ```
